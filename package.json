@@ -1,0 +1,11 @@
+{
+  "name": "vfx-tips",
+  "private": true,
+  "main": "./vfx-tip.js",
+  "types": "./vfx-tip.d.ts",
+  "dependencies": {
+    "@reverse/random": "^1.0.12",
+    "cli": "^1.0.1",
+    "fs-extra": "^9.0.0"
+  }
+}
