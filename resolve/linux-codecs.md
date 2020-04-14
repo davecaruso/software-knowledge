@@ -2,7 +2,7 @@
 title: Media Codec Restrictions on Linux
 created: 2020-04-13
 author: Dave Caruso
-alias: linux-codec
+alias: linux-media
 ---
 
 Resolve on Linux doesn't like a lot of file formats. Use [ffmpeg](https://www.ffmpeg.org/) to
