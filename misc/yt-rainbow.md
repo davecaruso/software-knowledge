@@ -1,5 +1,5 @@
 ---
-title: Did you know?
+title: Did you Know?
 author: Hunter Parcells
 ---
 
