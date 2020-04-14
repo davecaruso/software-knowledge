@@ -21,7 +21,7 @@ def load(*folders):
 
 def filterArticles(filterString, array):
   if len(filterString) > 0:
-    return filter(lambda x: filterString in str.strip(x), array)
+    return list(filter(lambda x: filterString in str.strip(x), array))
   else:
     return array
 
@@ -41,6 +41,6 @@ def searchForArticle(query):
       return map(lambda id: allArticles[id], ids)
   else:
     if search in allCategories:
-      return allArticles[random.choice(filterArticles(filter, allCategories[search]))]
+      return allArticles[random.choice(filterArticles(filterString, allCategories[search]))]
     else:
       return None
