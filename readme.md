@@ -5,3 +5,8 @@ searching though it all.
 
 [1]: https://davecode.me/knowledge
 [2]: https://discord.gg/b6DkWXV
+
+## Contributors
+- Dave Caruso
+- Timothy Lukas Hättich
+- Hunter Parcells
