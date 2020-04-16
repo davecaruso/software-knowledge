@@ -2,7 +2,7 @@
 title: (Ripple) Delete vs Backspace
 created: 2020-04-16
 author: TimothyLH
-alias: delete, backspace, ripple delete, ripple
+alias: backspace,ripple-delete,ripple
 ---
 
 Resolve differeniats between DELETE and BACKSPACE.
