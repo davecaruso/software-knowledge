@@ -1,8 +1,8 @@
 ---
-title: A Fair Warning
+title: Resolve Crashes *A Lot*
 created: 2020-04-13
 author: Dave Caruso
-alias: crash, crashes
+alias: crashes
 ---
 
 There is a small issue with DaVinci Resolve where it crashes a lot. Trying to preview a clip you
