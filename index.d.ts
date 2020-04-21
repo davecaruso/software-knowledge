@@ -13,9 +13,9 @@ export interface ArticleDatabase {
 }
 
 /** Returns all articles and their contents. */
-export async function load(...categories: string[]): Promise<void>;
+export function load(...categories: string[]): Promise<void>;
 /** Returns all tip categories. */
-export async function getData(): Promise<ArticleDatabase>;
+export function getData(): Promise<ArticleDatabase>;
 
 /**
  * Searches through the database for articles.
@@ -26,4 +26,4 @@ export async function getData(): Promise<ArticleDatabase>;
  * 
  * @param query The search query.
  */
-export async function searchForArticle(query: string): Promise<Article | Article[] | null>;
+export function searchForArticle(query: string): Promise<Article | Article[] | null>;
