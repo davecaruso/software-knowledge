@@ -79,6 +79,8 @@ function filterArticles(filter, array) {
   return filter ? array.filter(x => x.replace(/\/\w*?$/g, '').includes(filter)) : array;
 }
 async function searchForArticle(query) {
+  query = query.toLowerCase();
+  
   if (!query) {
     query = '*';
   }
