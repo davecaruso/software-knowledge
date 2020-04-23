@@ -1,5 +1,5 @@
 {
-  "name": "vfx-tips",
+  "name": "knowledge",
   "private": true,
   "main": "./vfx-tip.js",
   "types": "./vfx-tip.d.ts",
