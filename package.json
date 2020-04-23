@@ -1,6 +1,7 @@
 {
-  "name": "knowledge",
   "private": true,
+  "name": "knowledge",
+  "version": "0.0.0",
   "main": "./vfx-tip.js",
   "types": "./vfx-tip.d.ts",
   "dependencies": {
